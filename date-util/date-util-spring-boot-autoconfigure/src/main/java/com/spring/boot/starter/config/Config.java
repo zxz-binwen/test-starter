@@ -16,9 +16,9 @@ public class Config {
         return new DateUtil();
     }
 
-    @Bean
-    public UserService userService() {
-        return new UserService();
-    }
+//    @Bean
+//    public UserService userService() {
+//        return new UserService();
+//    }
 
 }

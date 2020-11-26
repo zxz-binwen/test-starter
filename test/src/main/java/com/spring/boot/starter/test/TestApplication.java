@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.spring.boot.starter")
 public class TestApplication {
 
     @Autowired
@@ -31,7 +31,7 @@ public class TestApplication {
     }
 
 
-    @GetMapping("add")
+    @GetMapping("add1")
     public User add(@RequestParam("name") String name, @RequestParam("age") Integer age) {
 
         return userService.add(name, age);
