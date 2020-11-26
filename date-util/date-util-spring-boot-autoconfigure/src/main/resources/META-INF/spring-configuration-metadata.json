@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "date.util",
+      "type": "com.spring.boot.starter.config.DateProperties",
+      "sourceType": "com.spring.boot.starter.config.DateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "date.util.name",
+      "type": "java.lang.String",
+      "description": "名称",
+      "sourceType": "com.spring.boot.starter.config.DateProperties"
+    }
+  ]
+}

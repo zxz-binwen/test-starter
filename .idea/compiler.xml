@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="date-util-spring-boot-autoconfigure" />
+        <module name="test" />
+        <module name="test-starter" />
+        <module name="date-util-spring-boot-starter" />
+        <module name="date-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="date-util" target="1.8" />
+      <module name="date-util-spring-boot-autoconfigure" target="1.8" />
+      <module name="date-util-spring-boot-starter" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="test-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="date-util" options="-parameters" />
+      <module name="date-util-spring-boot-autoconfigure" options="-parameters" />
+      <module name="date-util-spring-boot-starter" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="test-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

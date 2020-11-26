@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/date-util/date-util.iml" filepath="$PROJECT_DIR$/date-util/date-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/date-util/date-util-spring-boot-autoconfigure/date-util-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/date-util/date-util-spring-boot-autoconfigure/date-util-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/date-util/date-util-spring-boot-starter/date-util-spring-boot-starter.iml" filepath="$PROJECT_DIR$/date-util/date-util-spring-boot-starter/date-util-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-starter.iml" filepath="$PROJECT_DIR$/test-starter.iml" />
+    </modules>
+  </component>
+</project>
